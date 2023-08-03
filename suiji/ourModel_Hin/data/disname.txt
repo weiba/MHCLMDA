@@ -1,0 +1,435 @@
+abortion, habitual
+acquired immunodeficiency syndrome
+acute coronary syndrome
+acute kidney injury
+acute lung injury
+adrenocortical carcinoma ++++
+alopecia
+amyloidosis
+amyotrophic lateral sclerosis
+anemia
+anemia, sickle cell
+aneurysm
+angina, unstable
+antiphospholipid syndrome
+anus neoplasms
+anxiety
+anxiety disorders
+aortic aneurysm
+aortic aneurysm, abdominal
+aortic aneurysm, thoracic
+aortic valve insufficiency
+aortic valve stenosis
+arbovirus infections
+arteriosclerosis obliterans
+arthritis
+arthritis, psoriatic
+asthenozoospermia
+asthma
+astrocytoma
+atherosclerosis
+atrial fibrillation
+autistic disorder
+autoimmune diseases
+autoimmune lymphoproliferative syndrome
+azoospermia
+balkan nephropathy
+barrett esophagus
+behcet syndrome
+bile duct neoplasms
+biliary atresia
+bipolar disorder
+bone diseases
+bone neoplasms
+borna disease
+brain diseases
+brain ischemia
+brain neoplasms
+bronchiolitis obliterans
+bronchopulmonary dysplasia
+brucellosis
+burkitt lymphoma
+carcinoma, basal cell
+carcinoma, ehrlich tumor
+carcinoma, endometrioid
+carcinoma, neuroendocrine
+carcinoma, pancreatic ductal
+carcinoma, signet ring cell
+carcinoma, transitional cell
+cardio-renal syndrome
+cardiomegaly
+cardiomyopathies
+cardiomyopathy, alcoholic
+cardiomyopathy, dilated
+cardiotoxicity
+cardiovascular diseases
+carotid artery diseases
+cartilage diseases
+cataract
+celiac disease
+cerebellar neoplasms
+cerebral hemorrhage
+cerebral infarction
+chagas disease
+charcot-marie-tooth disease
+chemical and drug induced liver injury
+chikungunya fever
+child development disorders, pervasive
+chlamydia infections
+cholangiocarcinoma
+cholestasis
+cholesteatoma
+chondrosarcoma
+chordoma
+chorioamnionitis
+choriocarcinoma
+chronic pain
+cicatrix, hypertrophic
+cleidocranial dysplasia
+cocaine-related disorders
+colitis
+colonic neoplasms
+colorectal neoplasms
+complex regional pain syndromes
+congenital microtia
+corneal neovascularization
+coronary artery disease
+coronary restenosis
+coronavirus infections
+crohn disease
+cryptosporidiosis
+cystic fibrosis
+cytomegalovirus infections
+dementia
+demyelinating diseases
+dental enamel hypoplasia
+depressive disorder
+dermatitis, allergic contact
+dermatitis, atopic
+dermatomyositis
+diabetes mellitus
+diabetic angiopathies
+diabetic cardiomyopathies
+diabetic foot
+diabetic neuropathies
+diabetic retinopathy
+diarrhea
+digeorge syndrome
+digestive system neoplasms
+down syndrome
+dyspepsia
+eclampsia
+encephalitis
+encephalomyelitis
+endocardial cushion defects
+endocrine gland neoplasms
+endometrial neoplasms
+endometriosis
+endomyocardial fibrosis
+endotoxemia
+enterovirus infections
+eosinophilic esophagitis
+ependymoma
+epilepsy
+epilepsy, temporal lobe
+epstein-barr virus infections
+esophageal neoplasms
+esophagitis
+familial mediterranean fever
+familial primary pulmonary hypertension
+fanconi anemia
+fatty liver
+fatty liver, alcoholic
+fetal alcohol spectrum disorders
+fever
+fibromatosis, aggressive
+fibromyalgia
+fibrosarcoma
+focal epithelial hyperplasia
+foot-and-mouth disease
+fragile x syndrome
+friedreich ataxia
+frontotemporal lobar degeneration
+gastritis, atrophic
+gastrointestinal neoplasms
+gastrointestinal stromal tumors
+gaucher disease
+gerstmann-straussler-scheinker disease
+gestational trophoblastic disease
+giant cell tumor of bone
+glaucoma
+glioblastoma
+glioma
+gliosis
+glomerulonephritis
+gout
+graft rejection
+granulosa cell tumor
+graves disease
+growth disorders
+growth hormone-secreting pituitary adenoma
+guillain-barre syndrome
+haemophilus infections
+hamartoma syndrome, multiple
+hand, foot and mouth disease
+hantavirus infections
+head and neck neoplasms
+hearing loss
+hearing loss, central
+heart diseases
+heart failure
+hellp syndrome
+hemangioma
+hemangiosarcoma
+hematologic neoplasms
+hemoglobin sc disease
+hemoglobinopathies
+hemophilia a
+hemorrhagic fever, ebola
+hepatitis b
+hepatitis b, chronic
+hepatitis c
+hepatitis c, chronic
+hepatitis e
+hepatitis, alcoholic
+hepatitis, chronic
+hepatoblastoma
+hirschsprung disease
+hiv infections
+hiv-associated lipodystrophy syndrome
+hodgkin disease
+huntington disease
+hyperaldosteronism
+hypercholesterolemia
+hyperglycemia
+hyperhomocysteinemia
+hyperlipoproteinemia type iii
+hypersensitivity
+hypertrophy
+hypoxia
+hypoxia-ischemia, brain
+idiopathic pulmonary fibrosis
+ileus
+immune system diseases
+immunologic deficiency syndromes
+infection
+inferior wall myocardial infarction
+infertility
+inflammation
+inflammatory bowel diseases
+intermittent claudication
+intervertebral disc degeneration
+intestinal diseases
+intracranial aneurysm
+irritable bowel syndrome
+ischemia
+kaposi varicelliform eruption
+keloid
+keratitis
+kidney diseases
+kidney failure, chronic
+legg-calve-perthes disease
+leiomyosarcoma
+leishmaniasis
+leprosy
+leprosy, lepromatous
+lesch-nyhan syndrome
+leukemia
+leukemia, b-cell
+leukemia, myeloid, chronic-phase
+leukemia, t-cell
+leukoplakia, oral
+li-fraumeni syndrome
+lichen planus
+lichen planus, oral
+lipid metabolism, inborn errors
+liposarcoma
+liposarcoma, myxoid
+listeriosis
+liver cirrhosis
+liver diseases
+liver failure
+liver failure, acute
+liver neoplasms
+long qt syndrome
+lung diseases
+lung diseases, interstitial
+lung injury
+lung neoplasms
+lupus erythematosus, systemic
+lupus nephritis
+lupus vulgaris
+lyme disease
+lymphedema
+lymphocytic choriomeningitis
+lymphohistiocytosis, hemophagocytic
+lymphoma
+lymphoma, extranodal nk-t-cell
+lymphoma, follicular
+lymphoma, non-hodgkin
+lymphoma, t-cell, cutaneous
+lymphoproliferative disorders
+machado-joseph disease
+macular degeneration
+malaria, cerebral
+marek disease
+mastitis
+mastocytosis, systemic
+medulloblastoma
+melanoma
+melanosis
+meningioma
+meningitis
+meningitis, pneumococcal
+mental disorders
+metabolic diseases
+mitochondrial diseases
+mouth neoplasms
+moyamoya disease
+mucocutaneous lymph node syndrome
+multiple endocrine neoplasia type 1
+multiple myeloma
+multiple sclerosis
+multiple sulfatase deficiency disease
+multiple system atrophy
+muscular atrophy
+muscular dystrophy, duchenne
+muscular dystrophy, facioscapulohumeral
+myasthenia gravis
+myasthenic syndromes, congenital
+mycobacterium avium-intracellulare infection
+mycosis fungoides
+myocardial infarction
+myocardial ischemia
+myocardial reperfusion injury
+myocarditis
+myopia
+myositis ossificans
+myotonic dystrophy
+myxoma
+narcolepsy
+nasopharyngeal neoplasms
+neoplasms
+neoplasms, germ cell and embryonal
+neoplasms, neuroepithelial
+nephrolithiasis
+nephrosclerosis
+nephrotic syndrome
+neuralgia
+neurilemmoma
+neuroblastoma
+neuroendocrine tumors
+neuroma
+neurotoxicity syndromes
+neutropenia
+nevus
+niemann-pick disease, type c
+non-alcoholic fatty liver disease
+obesity
+odontogenic tumors
+oligodendroglioma
+oral submucous fibrosis
+oropharyngeal neoplasms
+osteoarthritis, knee
+osteogenesis imperfecta
+osteoporosis
+osteoporosis, postmenopausal
+osteosarcoma
+otitis media
+ovarian diseases
+pain
+pancreatic diseases
+pancreatitis, acute necrotizing
+pancreatitis, chronic
+panic disorder
+parathyroid neoplasms
+parkinson disease
+pediatric obesity
+pelvic inflammatory disease
+pelvic organ prolapse
+pemphigus
+periodontal diseases
+periodontitis
+peripheral nervous system diseases
+peripheral vascular diseases
+peritoneal fibrosis
+peritoneal neoplasms
+peritonitis
+pheochromocytoma
+phyllodes tumor
+pituitary neoplasms
+pneumonia
+polycystic kidney diseases
+polycystic ovary syndrome
+polycythemia vera
+pre-eclampsia
+precursor b-cell lymphoblastic leukemia-lymphoma
+precursor t-cell lymphoblastic leukemia-lymphoma
+pregnancy complications
+primary myelofibrosis
+prion diseases
+prolactinoma
+prostatic neoplasms
+psoriasis
+psychotic disorders
+pterygium
+pulmonary embolism
+pulmonary fibrosis
+rectal neoplasms
+reperfusion injury
+respiratory distress syndrome, adult
+respiratory syncytial virus infections
+retinal degeneration
+retinal neovascularization
+retinitis pigmentosa
+retinoblastoma
+rhabdoid tumor
+rhabdomyosarcoma
+rheumatic heart disease
+rhinitis, allergic, perennial
+rhinitis, vasomotor
+salivary gland neoplasms
+salmonella infections
+sarcoidosis, pulmonary
+sarcoma
+schistosomiasis japonica
+schizophrenia
+seizures
+seminoma
+sepsis
+severe acute respiratory syndrome
+sezary syndrome
+shock, hemorrhagic
+silicosis
+sjogren's syndrome
+skin neoplasms
+sleep apnea, obstructive
+spinal stenosis
+spondylarthritis
+staphylococcal scalded skin syndrome
+status epilepticus
+stomach neoplasms
+subarachnoid hemorrhage
+testicular neoplasms
+tetralogy of fallot
+thrombocythemia, essential
+thrombocytopenia
+thrombocytosis
+thrombosis
+thymoma
+tongue neoplasms
+toxoplasmosis
+triple negative breast neoplasms
+trisomy 13 syndrome
+tuberculosis
+tuberculosis, pulmonary
+uterine cervicitis
+uterine neoplasms
+uveitis
+uveomeningoencephalitic syndrome
+varicocele
+vascular diseases
+vasculitis
+vitiligo
+vulvar neoplasms
+waldenstrom macroglobulinemia
