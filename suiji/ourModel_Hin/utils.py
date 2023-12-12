@@ -187,38 +187,3 @@ def mcc_binary(true_data: torch.Tensor, predict_data: torch.Tensor, threshold: f
     delta = torch.tensor(0.00001, dtype=torch.float32, device=true_data.device)
     score = torch.div((tp*tn-fp*fn), torch.add(delta, torch.sqrt((tp+fp)*(tp+fn)*(tn+fp)*(tn+fn))))
     return score
-
-def GIP_kernel (Asso_RNA_Dis):
-    # the number of row
-    nc = Asso_RNA_Dis.shape[0]
-    #initate a matrix as result matrix
-    matrix = np.zeros((nc, nc))
-    # calculate the down part of GIP fmulate
-    r = getGosiR(Asso_RNA_Dis)
-    #calculate the result matrix
-    for i in range(nc):
-        for j in range(nc):
-            #calculate the up part of GIP formulate
-            temp_up = np.square(np.linalg.norm(Asso_RNA_Dis[i,:] - Asso_RNA_Dis[j,:]))
-            if r == 0:
-                matrix[i][j]=0
-            elif i==j:
-                matrix[i][j] = 1
-            else:
-                matrix[i][j] = np.e**(-temp_up/r)
-    return matrix
-def getGosiR (Asso_RNA_Dis):
-# calculate the r in GOsi Kerel
-    nc = Asso_RNA_Dis.shape[0]
-    summ = 0
-    for i in range(nc):
-        x_norm = np.linalg.norm(Asso_RNA_Dis[i,:])
-        x_norm = np.square(x_norm)
-        summ = summ + x_norm
-    r = summ / nc
-    return r
-
-
-
-
-

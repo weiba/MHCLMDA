@@ -34,16 +34,6 @@ def cos_dis(x):
     dis_mat = 1 - np.matmul(x, x.T)
     return dis_mat
 
-# def cos_dis(X):
-#     """
-#     cosine distance
-#     :param X: (N, d)
-#     :return: (N, N)
-#     """
-#     X = nn.functional.normalize(X)
-#     XT = X.transpose(0, 1)
-#     return torch.matmul(X, XT)
-
 
 def feature_concat(normal_col=False, *F_list):
 
@@ -183,8 +173,7 @@ def construct_H_with_KNN_from_distance(dis_mat, k_neig, is_probH=False, m_prob=1
                 H[node_idx, center_idx] = 1.0
     return H
 
-
-def construct_H_with_KNN(X, K_neigs=[15], split_diff_scale=False, is_probH=False, m_prob=1):
+def construct_H_with_KNN(X, K_neigs=[10], split_diff_scale=False, is_probH=True, m_prob=1):
     """
     init multi-scale hypergraph Vertex-Edge matrix from original node feature matrix
     :param X: N_object x feature_number
@@ -202,8 +191,6 @@ def construct_H_with_KNN(X, K_neigs=[15], split_diff_scale=False, is_probH=False
 
     # dis_mat = Eu_dis(X)
     dis_mat = cos_dis(X)
-    # dis_mat = X
-
     H = []
     for k_neig in K_neigs:
         H_tmp = construct_H_with_KNN_from_distance(dis_mat, k_neig, is_probH, m_prob)
