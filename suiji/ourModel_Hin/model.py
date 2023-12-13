@@ -77,7 +77,7 @@ class Model(nn.Module):
         result = self.z_node_mean.mm(self.z_edge_mean.t())
 
         result_h = (reconstructionG + reconstructionMD + reconstructionMMDD)/3
-        recover = 0.6*result + 0.4*result_h
+        recover = 0.4*result + 0.6*result_h
 
         return reconstruction_en, result, reconstructionG, reconstructionMD, reconstructionMMDD, result_h ,recover,mir_feature_1 , mir_feature_2 , mir_feature_3 , dis_feature_1 ,dis_feature_2 ,dis_feature_3
 
