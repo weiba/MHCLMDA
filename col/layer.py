@@ -115,7 +115,6 @@ class HGNN1(nn.Module):
         x = torch.tanh(x)
         x= self.hgc2(x, G)
 
-
         return x
 
 

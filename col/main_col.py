@@ -43,7 +43,7 @@ def train(epochs):
         model.train()
         optimizer2.zero_grad()
         reconstruction1, result, reconstructionG, reconstructionMD, reconstructionMMDD, recover, result_h, mir_feature_1, mir_feature_2, mir_feature_3, dis_feature_1, dis_feature_2, dis_feature_3 = model(
-            AT, A, HMG, HDG, mir_feat, dis_feat, HMD, HDM, HMM, HDD)  # 将数据传入模型
+            AT, A, HMG, HDG, mir_feat, dis_feat, HMD, HDM, HMM, HDD)
         outputs = result_h.t().cpu().detach().numpy()
 
         test_predict = create_resultmatrix(outputs, testset, prolist)
@@ -66,10 +66,10 @@ def train(epochs):
         loss_c = loss_c_m + loss_c_d
 
         loss_k = loss_kl(model.z_node_log_std, model.z_node_mean, model.z_edge_log_std, model.z_edge_mean)
-        loss_v = loss_k + (1-norm)*F.binary_cross_entropy_with_logits(re1.t(), MA,pos_weight=pos_weight) + (1-norm)*F.binary_cross_entropy_with_logits(ret.t(), MA,pos_weight=pos_weight)
+        loss_v = loss_k + F.binary_cross_entropy_with_logits(re1.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(ret.t(), MA,pos_weight=pos_weight)
         
         loss_r_h = F.binary_cross_entropy_with_logits(reG.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(reMD.t(), MA, pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(reMMDD.t(), MA, pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(rec.t(), MA, pos_weight=pos_weight)
-        loss = loss_r_h + 0.7*loss_v + 0.3*loss_c
+        loss = loss_r_h + 0.7 * loss_v + 0.3 * loss_c
 
         loss.backward()
         optimizer2.step()
