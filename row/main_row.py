@@ -62,9 +62,9 @@ def train(epochs):
         loss_c = loss_c_m + loss_c_d
 
         loss_k = loss_kl(model.z_node_log_std, model.z_node_mean, model.z_edge_log_std, model.z_edge_mean)
-        loss_v = 0.2*loss_k + (1-norm)*F.binary_cross_entropy_with_logits(re1.t(), MA,pos_weight=pos_weight) + (1-norm)*F.binary_cross_entropy_with_logits(ret.t(), MA,pos_weight=pos_weight)
-        loss_r_h = F.binary_cross_entropy_with_logits(reG.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(reMD.t(), MA, pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(reMMDD.t(), MA, pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(rec.t(), MA, pos_weight=pos_weight)        loss = loss_v + (norm * loss_hg) + loss_c
-        loss = 0.7*loss_v + (norm * loss_r_h) + 0.3*loss_c
+        loss_v = loss_k + (1-norm)*F.binary_cross_entropy_with_logits(re1.t(), MA,pos_weight=pos_weight) + (1-norm)*F.binary_cross_entropy_with_logits(ret.t(), MA,pos_weight=pos_weight)
+        loss_r_h = F.binary_cross_entropy_with_logits(reG.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(reMD.t(), MA, pos_weight=pos_weight)*norm + F.binary_cross_entropy_with_logits(reMMDD.t(), MA, pos_weight=pos_weight)*norm + F.binary_cross_entropy_with_logits(rec.t(), MA, pos_weight=pos_weight)*norm
+        loss =  loss_r_h+ 0.7*loss_v  + 0.3*loss_c
 
         loss.backward()
         optimizer2.step()
