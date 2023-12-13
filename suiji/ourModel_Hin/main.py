@@ -60,10 +60,10 @@ def train(epochs):
         loss_c_d = contrastive_loss(dis_feature_2, dis_feature_1) + contrastive_loss(dis_feature_2, dis_feature_3) 
         loss_c = loss_c_m + loss_c_d
 
-        loss_v = loss_k + F.binary_cross_entropy_with_logits(re1.t(), MA,pos_weight=pos_weight) + (1-norm)*F.binary_cross_entropy_with_logits(ret.t(), MA,pos_weight=pos_weight)
-        loss_r_h = F.binary_cross_entropy_with_logits(reG.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(reMMDD.t(), MA,pos_weight=pos_weight) + norm*F.binary_cross_entropy_with_logits(reMD.t(), MA,pos_weight=pos_weight) + norm*F.binary_cross_entropy_with_logits(rec.t(), MA,pos_weight=pos_weight)
+        loss_v = loss_k + F.binary_cross_entropy_with_logits(re1.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(ret.t(), MA,pos_weight=pos_weight)
+        loss_r_h = F.binary_cross_entropy_with_logits(reG.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(reMMDD.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(reMD.t(), MA,pos_weight=pos_weight) + F.binary_cross_entropy_with_logits(rec.t(), MA,pos_weight=pos_weight)
 
-        loss = loss_r_h + alpha*loss_v + (1-alpha)*(loss_c)
+        loss = loss_r_h + alpha*loss_v + (1-alpha)*loss_c
 
         loss.backward()
         optimizer2.step()
@@ -122,17 +122,17 @@ indexp = np.argwhere(MD == 1)
 Index_PositiveRow = indexp[:, 0]
 Index_PositiveCol = indexp[:, 1]
 
-totalassociation = np.size(Index_PositiveRow)
-fold = int(totalassociation / 5)
+totalassociation = np.size(Index_PositiveRow) #7694
+fold = int(totalassociation / 5) #1538
 
-zero_length = np.size(Index_zeroRow)
+zero_length = np.size(Index_zeroRow)#321601
 
 alpha = 0.7
 n = 1
 hidden1 = 512
 hidden2 = 128
 parser = argparse.ArgumentParser()
-parser.add_argument('--epochs', type=int, default=92, help='Number of epochs to train.')
+parser.add_argument('--epochs', type=int, default=135, help='Number of epochs to train.')
 parser.add_argument('--no-cuda', action='store_true', default=False, help='Disables CUDA training.')
 parser.add_argument('--hidden', type=int, default=128, help='Number of hidden units.')
 parser.add_argument('--dropout', type=float, default=0.5, help='Dropout rate (1 - keep probability).')
@@ -249,7 +249,7 @@ for time in range(1,n+1):
         XX = torch.from_numpy(XX)
         XXN = A
         pos_weight = float(XXN.shape[0] * XXN.shape[1] - XXN.sum()) / XXN.sum()
-        norm = A.shape[0] * A.shape[1] / float((A.shape[0] * A.shape[1] - A.sum()) * 2)
+        # norm = A.shape[0] * A.shape[1] / float((A.shape[0] * A.shape[1] - A.sum()) * 2)
         mir_feat, dis_feat = Variable(mir_feat), Variable(dis_feat)
         loss_kl = kl_loss(435, 757)
         if args.cuda:
